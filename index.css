@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navigation {
+  height: 600px;
+  width: 100%;
+  color: white;
+  background-image: url(All/mancode.jpg);
+  background-size: cover;
+}
+.navigation > ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+.navigation ul li {
+  padding: 20px 15px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  margin: 40px;
+  color: white;
+  font-size: 20px;
+}
+.navigation > ul li:hover {
+  background-color: grey;
+  /* transition: all 0 ease-in; */
+}
+
+.navigation li ul {
+  display: none;
+  margin-top: 20px;
+}
+.navigation li ul li {
+  list-style: none;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  padding: 15px 0px;
+}
+.navigation li:hover ul {
+  display: block;
+  position: absolute;
+  background-color: darkslategray;
+}
+
+.pra-h {
+  margin-top: 125px;
+  margin-left: 70px;
+  height: 300px;
+  width: 400px;
+  /* border: 10px solid white; */
+  text-align: center;
+  padding: 10px;
+}
+.pra-h h4 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.pra-h h4 a {
+  color: white;
+  text-decoration: none;
+}
+.pra-h p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.fontawesam {
+  margin-top: 20px;
+}
+.fontawesam a {
+  color: white;
+  font-size: 30px;
+  padding: 0px 10px;
+}
